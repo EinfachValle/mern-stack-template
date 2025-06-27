@@ -13,7 +13,6 @@
     "format:client": "yarn --cwd client prettier --write src/**/*.{js,jsx,json,css,scss}",
     "format:server": "yarn --cwd server prettier --write .",
     "format:all": "concurrently \"yarn format:client\" \"yarn format:server\"",
-    "build:all": "concurrently \"yarn --cwd client build\" \"yarn --cwd server build\"",
     "lint:all": "concurrently \"yarn --cwd client lint\" \"yarn --cwd server lint\"",
     "prepare:husky": "husky install"
   },
@@ -44,6 +43,7 @@
   "homepage": "https://github.com/EinfachValle/mern-stack-template#readme",
   "devDependencies": {
     "concurrently": "^9.2.0",
+    "husky": "^9.1.7",
     "lint-staged": "^16.1.2",
     "nodemon": "^3.1.10"
   },
