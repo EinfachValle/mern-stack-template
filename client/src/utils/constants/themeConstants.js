@@ -1,16 +1,18 @@
+// TODO: Change Colors for your application
+
 export const BASE_THEME_COLORS = {
   PRIMARY: {
-    TERTIARY: "#DEF3FF",
-    LIGHT: "#31AFF7",
-    MAIN: "#0B89D1",
-    DARK: "#0080C8",
-    LINK: "#0185FF",
+    TERTIARY: "#DFF5E2",
+    LIGHT: "#6FCF97",
+    MAIN: "#27AE60",
+    DARK: "#219653",
+    LINK: "#2ECC71",
   },
   SECONDARY: {
     WHITE: "#FFFFFF",
-    LIGHT: "#A9B1BF",
-    MAIN: "#536886",
-    DARK: "#1D1D2B",
+    LIGHT: "#A8B0B9",
+    MAIN: "#5C6B77",
+    DARK: "#2C3E50",
     BLACK: "#000000",
   },
   SUCCESS: {
@@ -41,11 +43,11 @@ export const BASE_THEME_COLORS = {
 
 export const LIGHT_THEME_COLORS = {
   100: "#FAFAFA",
-  200: "#F4F5F6",
-  300: "#EFF0F3",
-  400: "#E5E8EC",
-  500: "#DCE1E7",
-  600: "#C2C5D1",
+  200: "#F4F6F8",
+  300: "#D4EDD9",
+  400: "#BFE3C4",
+  500: "#AAD9AF",
+  600: "#95C29B",
 };
 
 export const DARK_THEME_COLORS = {

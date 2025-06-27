@@ -2,7 +2,7 @@
   "name": "mern-stack-template",
   "version": "1.0.0",
   "description": "MERN template with MUI, Socket.IO, and ready-to-use full‑stack setup",
-  "main": "server/app.js",
+  "main": "server/server.js",
   "scripts": {
     "install:all": "concurrently \"yarn install\" \"yarn --cwd client install\" \"yarn --cwd server install\"",
     "clone-env": "concurrently \"cp server/.env.example server/.env\" \"cp client/.env.example client/.env\"",

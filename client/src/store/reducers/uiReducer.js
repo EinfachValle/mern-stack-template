@@ -4,7 +4,7 @@ import { LANGUAGES, THEME } from "@/utils/constants/constants";
 const initialUIState = {
   documnetDraggedOver: false,
   appTouched: false,
-  theme: THEME.LIGHT,
+  theme: THEME.DARK,
   locale: LANGUAGES.ENGLISH.key,
   loading: false,
   error: null,

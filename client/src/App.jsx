@@ -22,7 +22,7 @@ const App = () => {
     AppInitializerService.trapApplicationTouched();
   }, []);
 
-  const mode = currentTheme || localStorageTheme || THEME.LIGHT;
+  const mode = currentTheme || localStorageTheme || THEME.DARK;
   const theme = getTheme(mode);
 
   return (

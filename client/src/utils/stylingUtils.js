@@ -15,9 +15,9 @@ export const applicationScrollbar = (theme) => {
     },
     "&::-webkit-scrollbar-thumb": {
       borderRadius: "4px",
-      backgroundColor: isDarkTheme ? "#0B89D1" : "#CFD5DE",
+      backgroundColor: isDarkTheme ? "#219653" : "#CFD5DE",
       "&:hover": {
-        backgroundColor: isDarkTheme ? "#31AFF7" : "transparent",
+        backgroundColor: isDarkTheme ? "#27AE60" : "transparent",
       },
     },
   };
